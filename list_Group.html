@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Basic List Group</h2>
+  <ul class="list-group">
+    <li class="list-group-item">First item</li>
+    <li class="list-group-item">Second item</li>
+    <li class="list-group-item">Third item</li>
+    <li class="list-group-item">Fourth item</li>
+    <li class="list-group-item">Fifth item</li>
+    <li class="list-group-item">Sixth item</li>
+  </ul>
+
+//You can also add badges to a list group. The badges will automatically be positioned on the right:........
+  <ul class="list-group">
+    <li class="list-group-item">New <span class="badge">12</span></li>
+    <li class="list-group-item">Deleted <span class="badge">5</span></li>
+    <li class="list-group-item">Warnings <span class="badge">3</span></li>
+  </ul>
+
+
+  //*The items in a list group can also be hyperlinks. This will add a grey background color on hover:........
+  
+  //*To create a list group with linked items, use <div> instead of <ul> and <a> instead of <li>.............
+
+  <div class="list-group">
+    <a href="#" class="list-group-item">First item</a>
+    <a href="#" class="list-group-item">Second item</a>
+    <a href="#" class="list-group-item">Third item</a>
+  </div>
+
+  //Use the .active class to highlight the current item:...........................
+
+  <div class="list-group">
+    <a href="#" class="list-group-item ">First item</a>
+    <a href="#" class="list-group-item active">Second item</a>
+    <a href="#" class="list-group-item">Third item</a>
+  </div>
+
+   //To disable an item, add the .disabled class:..........................
+
+  <div class="list-group">
+    <a href="#" class="list-group-item disabled">First item</a>
+    <a href="#" class="list-group-item">Second item</a>
+    <a href="#" class="list-group-item">Third item</a>
+  </div>
+
+
+
+  // contextual classes:- The classes for coloring list-items are: .list-group-item-success,.................
+  // list-group-item-info, list-group-item-warning, and .list-group-item-danger: .........................
+
+  <ul class="list-group">
+    <li class="list-group-item list-group-item-success">First item</li>
+    <li class="list-group-item list-group-item-info">Second item</li>
+    <li class="list-group-item list-group-item-warning">Third item</li>
+    <li class="list-group-item list-group-item-danger">Fourth item</li>
+  </ul>
+<br>
+<br>
+<br>
+
+  // Custom Content.....................
+  //You can add nearly any HTML inside a list group item..................
+  //Bootstrap provides the classes .list-group-item-heading and .list-group-item-text which can be used as............
+  // follows:...................
+
+  <div class="list-group">
+    <a href="" class="list-group-item active">
+      <h4 class="list-group-item-heading">First List Group Item Heading</h4>
+      <p class="list-group-item-text">List Group Item Text</p>
+    </a>
+    <a href="#" class="list-group-item">
+      <h4 class="list-group-item-heading">Second List Group Item Heading</h4>
+      <p class="list-group-item-text">List Group Item Text</p>
+    </a>
+    <a href="#" class="list-group-item disabled">
+      <h4 class="list-group-item-heading">Third List Group Item Heading</h4>
+      <p class="list-group-item-text">List Group Item Text</p>
+    </a>
+  </div>
+
+</div>
+
+</body>
+</html>

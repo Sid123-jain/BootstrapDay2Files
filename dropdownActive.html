@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Dropdowns</h2>
+  <p>The .active class adds a blue background color to the active link.</p>
+  <p>The .disabled class disables a dropdown item (grey text color).</p>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sid
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Normal</a></li>
+      <li class="disabled"><a href="#">Disabled</a></li>
+      <li class="active"><a href="#">Active</a></li>
+      <li><a href="#">Normal2</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+//dropdown menu right positioned..............
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sid
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-right">
+      <li><a href="#">Normal</a></li>
+      <li class="disabled"><a href="#">Disabled</a></li>
+      <li class="active"><a href="#">Active</a></li>
+      <li><a href="#">Normal2</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  //dropdown menu left positioned..................................
+
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sid
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-left">
+      <li><a href="#">Normal</a></li>
+      <li class="disabled"><a href="#">Disabled</a></li>
+      <li class="active"><a href="#">Active</a></li>
+      <li><a href="#">Normal2</a></li>
+    </ul>
+  </div>
+
+  <br>
+  <br>
+
+
+  //dropdown menu center positioned........................
+
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Sid
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-center">
+      <li><a href="#">Normal</a></li>
+      <li class="disabled"><a href="#">Disabled</a></li>
+      <li class="active"><a href="#">Active</a></li>
+      <li><a href="#">Normal2</a></li>
+    </ul>
+  </div>
+
+<br>
+<br>
+
+   //dropup menu..............................
+
+  <div class="dropup">
+    <button class="btn btn-default dropup-toggle" type="button" data-toggle="dropdown">Sid
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu-center">
+      <li><a href="#">Normal</a></li>
+      <li class="disabled"><a href="#">Disabled</a></li>
+      <li class="active"><a href="#">Active</a></li>
+      <li><a href="#">Normal2</a></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+// dropdown accessbility....................
+
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">kam1
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" href="#">HTML</a></li>
+      <li role="presentation"><a role="menuitem" href="#">CSS</a></li>
+      <li role="presentation"><a role="menuitem" href="#">JavaScript</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" href="#">About Us</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
+
